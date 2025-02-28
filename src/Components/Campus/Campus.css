@@ -1,0 +1,31 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.camp_title{
+    color: brown;
+    padding: 10px;
+    height: 40px;
+    
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.gallery img{
+    padding: 10px;
+    width: 23%;
+    border-radius: 4px;
+}
+.camp_btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+
+}

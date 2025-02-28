@@ -1,0 +1,36 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.program img{
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+}
+.program{
+    flex-basis: 31%;
+     position: relative; /*not changes position */
+}
+.caption{
+    border-radius: 2px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   background: rgba(0, 15, 157, 0.3);  /*  Add color on component */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s; /* delay time */
+}
+.program:hover .caption{
+    opacity: 2;/* transperency*/
+}

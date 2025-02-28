@@ -1,0 +1,35 @@
+nav{
+    width: 100%;
+    /*background-color: blue;*/
+    color: white;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+}
+.logo{
+    width: 8%;
+    height: 8%;
+   
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 30px;
+  
+}
+
+.dark_nav{
+    background: blue;
+    transition: 0.5s;
+}
+
+/*-------media for Query--------*/
